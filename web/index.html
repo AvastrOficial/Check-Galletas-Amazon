@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Validador de Cookie</title>
+</head>
+<body>
+  <div class="container">
+    <div class="panel panel-left">
+      <h1>Información</h1>
+      <div class="info-box">
+        <h3>Instrucciones</h3>
+        <p>Pega tu cookie completa en el área de texto del panel central y haz clic en "Validar Cookie" para comprobar su estado.</p>
+      </div>
+      <div class="info-box">
+        <h3>Precauciones</h3>
+        <p>No compartas tus cookies con personas no confiables. Las cookies pueden dar acceso completo a tu cuenta.</p>
+      </div>
+      <div class="info-box">
+        <h3>Soporte</h3>
+        <p>Para problemas técnicos, contacta con nuestro equipo de soporte técnico a través de los canales oficiales.</p>
+      </div>
+    </div>
+<div class="panel panel-center">
+  <h1> Validador de Cookie Amazon By Bsz</h1>
+  <label for="cookie">Pega aquí tu cookie completa:</label>
+  <textarea id="cookie" placeholder="Pega la cookie aquí..."></textarea>
+  <div class="resultado" id="resultado">Esperando validación...</div>
+
+  <!-- ???? Botones -->
+ <div class="botones-acciones">
+  <a href="https://chekerv2bsz.foroactivo.com/h1-indice" target="_blank" class="btn volver">
+    <i class="fa-solid fa-arrow-left"></i> Volver Checker
+  </a>
+  <a href="https://t.me/CheckerV2BszHackers" target="_blank" class="btn telegram">
+    <i class="fa-brands fa-telegram"></i> Telegram
+  </a>
+  <a href="https://github.com/AvastrOficial" target="_blank" class="btn github">
+    <i class="fa-brands fa-github"></i> GitHub
+  </a>
+</div>
+
+</div>
+
+    <div class="panel panel-right">
+      <h1>Acciones</h1>
+     <button onclick="validarCookie()" class="btn validar">
+    <i class="fa-solid fa-check"></i> Validar Cookie
+  </button>
+  <button onclick="document.getElementById('cookie').value = ''" class="btn limpiar">
+    <i class="fa-solid fa-broom"></i> Limpiar
+  </button>
+  <button onclick="copiarResultado()" class="btn copiar">
+    <i class="fa-solid fa-clipboard"></i> Copiar Resultado
+  </button>
+  <button onclick="descargarCookie()" class="btn guardar">
+    <i class="fa-solid fa-floppy-disk"></i> Guardar Cookie
+  </button>
+      
+      <div class="info-box">
+        <h3>Estado</h3>
+        <p id="status-info">Listo para validar</p>
+      </div>
+    </div>
+  </div>
