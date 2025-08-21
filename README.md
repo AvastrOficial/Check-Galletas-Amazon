@@ -40,3 +40,6 @@ Para evitarlo, se usa **AllOrigins** como intermediario:
 
 De esta forma, el sistema funciona en cualquier navegador sin configuraciones adicionales.
 
+<img width="1912" height="644" alt="image" src="https://github.com/user-attachments/assets/24d83026-9e3d-4856-a72b-c209de95bc46" />
+
+
